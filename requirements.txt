@@ -1,0 +1,8 @@
+langchain
+langgraph
+faiss-cpu
+python-dotenv
+requests
+pydantic-settings
+langchain-ollama
+pydantic_ai
