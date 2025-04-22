@@ -1,0 +1,11 @@
+Project Description: Weather Chatbot
+
+This project is an intelligent weather chatbot that can answer both specific weather queries and general climate questions. The foundation is written in scripy.py, which contains the core functionality including data ingestion from PDFs, vector storage using FAISS, and the LangGraph workflow implementation.
+
+The main script is in chatbot.py, which serves as the entry point for the application. It implements a conversational AI system that can:
+1. Classify user intents (weather API queries vs. general knowledge)
+2. Extract city names from user queries
+3. Fetch real-time weather data using WeatherAPI.com
+4. Answer general climate questions using AI
+
+The chatbot uses a graph-based conversation flow to route queries appropriately and maintain context throughout the conversation.
