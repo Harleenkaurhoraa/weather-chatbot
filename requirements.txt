@@ -6,3 +6,4 @@ requests
 pydantic-settings
 langchain-ollama
 pydantic_ai
+IPython
